@@ -324,8 +324,14 @@ li{
   font-size: 11pt;
 }
 
+#sidebar h2 {
+  font-weight: 400;
+  font-size: 8.5pt;
+  line-height: 10pt;
+}
+
 .side-block{
-  margin-top: 0.5in; 
+  margin-top: 0.25in; 
 }
 
 #contact ul{
@@ -339,6 +345,7 @@ li{
 #contact li > i{
   width: 9pt; /* for text alignment */
   text-align: right;
+  margin-right: 5px;
 }
 
 #skills{
@@ -346,9 +353,21 @@ li{
 }
 
 #skills ul{
-  margin: 0.05in 0 0.15in;
+  margin: 0 0 0.05in;
   padding: 0;
 }
+
+#skills h1 {
+  margin-bottom: 4px;
+}
+
+.skill-group {
+  margin: 20px 0;
+}
+
+.skill-group:first-of-type {
+  margin: 10px 0;
+} 
 
 #disclaimer{
   position: absolute;
@@ -366,4 +385,9 @@ li{
   font-family: "Source Code Pro";
   font-weight: 400;
   font-style: normal;
+}
+
+/** util classes **/
+.centered {
+  text-align: center;
 }
